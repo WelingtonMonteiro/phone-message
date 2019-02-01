@@ -50,6 +50,7 @@ async function sendSms(req, res) {
 
         let Sms = new SmsModel(data);
         Sms.keyBoardsPressed = SmsService.inputText(Sms.message);
+        Sms.userId = StringService.generateObjectId();
 
         let newSms = await Sms.save();
 
