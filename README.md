@@ -10,6 +10,9 @@ Tambem foram utilizadas para proteção das rotas de api o módulo chamado [` he
 
 No front foi utilizado o framework [Angularjs](https://angularjs.org/) para renderização das paginas
 
+Para hospedagem foi utilizado o serviço de BaaS (Backend as a Service) chamado [Heroku](https://www.heroku.com/), assim como foi configurado todo o ambiente
+de deploy e CI de teste, vinculado o deploy do projeto no github com o deploy no heroku.
+
 Repositório do projeto: [Phone SMS](https://github.com/WelingtonMonteiro/phone-message)
 
 ## Iniciando servidor
