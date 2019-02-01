@@ -21,6 +21,8 @@ Foi usado também um gerador de documentaçao da api, no caso usei um modo basic
 Gerador de documentação da api usado foi o [Apidoc](http://apidocjs.com/), para atualizar a doc da api basta executar o comando: ` npm doc `, 
 toda a documentação referente a api será gerada na pasta ` public/doc `, e disponibilizado na rota `/doc` ao executar o servidor.
 
+Para acessar a doc do projeto com as apis clique aqui: [Phone SMS](https://phone-send-sms.herokuapp.com/doc/)
+
 ###	`/message` POST 
 Api usada para criar uma nova mensagem sms:
 O campo "message" deve conter no máximo 255 caracteres.

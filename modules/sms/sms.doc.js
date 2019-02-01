@@ -22,7 +22,7 @@
  */
 
 /**
- * @api {POST} /sms Create sms message
+ * @api {POST} /api/message Create sms message
  * @apiGroup Sms
  * @apiversion 1.0.0
  * @apiParam {string{1..255}} message

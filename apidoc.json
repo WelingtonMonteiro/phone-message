@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "API Node.js para Phone Message v1.0.0",
   "title": "Phone Message",
-  "sampleUrl":"http://localhost:3003",
-  "url":"http://localhost:3003",
+  "sampleUrl":"https://phone-send-sms.herokuapp.com",
+  "url":"https://phone-send-sms.herokuapp.com",
   "template": {
     "forceLanguage": "pt_br"
   }
