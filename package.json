@@ -1,0 +1,53 @@
+{
+  "name": "phone-message",
+  "version": "1.0.0",
+  "description": "sending message phone",
+  "main": "app.js",
+  "keywords": [
+    "phone",
+    "noqwerty",
+    "sms",
+    "using",
+    "Nodejs",
+    "and",
+    "mongodb"
+  ],
+  "scripts": {
+    "start": "node app.js",
+    "doc": "apidoc -f \".*\\.doc\\.js\" -o public/doc",
+    "test": "mocha --timeout 10000"
+  },
+  "apidoc": {
+    "name": "Documentação - Phone message API"
+  },
+  "author": "Welington R. Monteiro",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "busboy-body-parser": "^0.3.2",
+    "compression": "^1.7.3",
+    "connect-busboy": "0.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "6.2.0",
+    "ejs": "2.5.6",
+    "express": "4.15.3",
+    "forever-monitor": "^1.7.1",
+    "helmet": "^3.15.0",
+    "mongodb": "2.2.28",
+    "mongoose": "5.4.8",
+    "morgan": "1.9.1",
+    "underscore": "^1.9.1",
+    "uuid": "^3.3.2",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "api-doc": "*",
+    "chai": "*",
+    "chai-http": "*",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": "9.x.x",
+    "npm": "6.x.x"
+  }
+}

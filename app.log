@@ -1,0 +1,220 @@
+
+
+ [32m { ENV: 'developer',
+  DEBUG: 'true',
+  MONGO_CONNECTION_STRING: 'mongodb://hunoAdmin:bossHuno17@localhost:27017/phone-dev?authSource=admin',
+  MONGO_URL: 'mongodb://localhost:27017',
+  MONGO_DB_NAME: 'phone-dev',
+  MONGO_DB_PASSWORD: 'bossHuno17',
+  MONGO_DB_USER: 'hunoAdmin',
+  SERVER_HOSTNAME: 'localhost:3003',
+  SERVER_PORT: '3003',
+  SERVER_PROTOCOL: 'http://' }
+[34m
+API Node.js Modelo v1.0.0 
+
+- Porta: 3003
+- Em modo: developer 
+
+
+Consumo de memória
+
+- RSS: 59.39(MB)
+- HeapTotal: 56.07(MB)
+- HeapUsado: 27.19(MB) 
+Listening on http://localhost:3003
+[0mGET / [32m200 [0m19.378 ms - 13178[0m
+[0mGET /style/style.css [33m404 [0m30.771 ms - 154[0m
+[0mGET /style/loading.css [33m404 [0m16.220 ms - 156[0m
+[0mGET /style/radiobutton.css [33m404 [0m16.018 ms - 160[0m
+[0mGET /style/sidenav.css [33m404 [0m16.758 ms - 156[0m
+[0mGET /style/topbar.css [33m404 [0m16.145 ms - 155[0m
+[0mGET /style/tooltip.css [33m404 [0m16.187 ms - 156[0m
+[0mGET /style/checkbox.css [33m404 [0m2.312 ms - 157[0m
+[0mGET /style/calendar.css [33m404 [0m2.365 ms - 157[0m
+[0mGET /lib/angular-toastr/dist/angular-toastr.css [33m404 [0m2.301 ms - 181[0m
+[0mGET /lib/open-iconic-master/font/css/open-iconic-bootstrap.css [33m404 [0m1.491 ms - 196[0m
+[0mGET /lib/angular-toastr/dist/angular-toastr.tpls.js [33m404 [0m0.820 ms - 185[0m
+[0mGET /lib/angular-jwt/dist/angular-jwt.js [33m404 [0m0.810 ms - 174[0m
+[0mGET /lib/async/async.js [33m404 [0m2.486 ms - 157[0m
+[0mGET /style/map/dark.js [33m404 [0m2.467 ms - 156[0m
+[0mGET /app/env.js [32m200 [0m5.755 ms - 480[0m
+[0mGET /app/app.module.js [32m200 [0m6.385 ms - 1306[0m
+[0mGET /service/service.module.js [32m200 [0m4.837 ms - 88[0m
+[0mGET /app/app.route.js [32m200 [0m6.250 ms - 998[0m
+[0mGET /modules/notification-mails/notification.module.js [33m404 [0m2.712 ms - 188[0m
+[0mGET /service/api.service.js [32m200 [0m9.870 ms - 10031[0m
+[0mGET /modules/notification-mails/notification.route.js [33m404 [0m6.280 ms - 187[0m
+[0mGET /modules/sms/sms.module.js [32m200 [0m7.577 ms - 83[0m
+[0mGET /modules/forgot-password/forgot-password.module.js [33m404 [0m1.793 ms - 188[0m
+[0mGET /modules/sms/sms.route.js [32m200 [0m8.066 ms - 398[0m
+[0mGET /modules/sms/sms.service.js [32m200 [0m5.283 ms - 494[0m
+[0mGET /modules/sms/sms.controller.js [32m200 [0m5.217 ms - 4628[0m
+[0mGET /modules/forgot-password/forgot-password.route.js [33m404 [0m1.808 ms - 187[0m
+[0mGET /modules/forgot-password/forgot-password.service.js [33m404 [0m2.047 ms - 189[0m
+[0mGET /modules/forgot-password/forgot-password.controller.js [33m404 [0m4.410 ms - 192[0m
+[0mGET /modules/forgot-password/change-password.controller.js [33m404 [0m2.829 ms - 192[0m
+[0mGET /modules/topbar/topbar.module.js [33m404 [0m2.975 ms - 170[0m
+[0mGET /modules/topbar/topbar.service.js [33m404 [0m3.512 ms - 171[0m
+[0mGET /modules/topbar/topbar.controller.js [33m404 [0m1.786 ms - 174[0m
+[0mGET /modules/register/register.module.js [33m404 [0m1.741 ms - 174[0m
+[0mGET /modules/register/register.route.js [33m404 [0m2.659 ms - 173[0m
+[0mGET /modules/register/register.service.js [33m404 [0m2.663 ms - 175[0m
+[0mGET /modules/register/form/form.controller.js [33m404 [0m3.541 ms - 179[0m
+[0mGET /modules/register/cnpj/cnpj.controller.js [33m404 [0m1.746 ms - 179[0m
+[0mGET /modules/register/license/license.controller.js [33m404 [0m0.771 ms - 185[0m
+[0mGET /modules/waiting/waiting.module.js [33m404 [0m1.078 ms - 172[0m
+[0mGET /modules/waiting/waiting.route.js [33m404 [0m5.578 ms - 171[0m
+[0mGET /modules/upload-license/upload.license.module.js [33m404 [0m6.033 ms - 186[0m
+[0mGET /modules/upload-license/upload.license.route.js [33m404 [0m4.910 ms - 185[0m
+[0mGET /modules/upload-license/upload.license.service.js [33m404 [0m4.913 ms - 187[0m
+[0mGET /modules/upload-license/upload.license.controller.js [33m404 [0m5.605 ms - 190[0m
+[0mGET /modules/dashboard/dashboard.module.js [33m404 [0m2.419 ms - 176[0m
+[0mGET /modules/dashboard/dashboard.route.js [33m404 [0m1.486 ms - 175[0m
+[0mGET /modules/dashboard/dashboard.service.js [33m404 [0m1.401 ms - 177[0m
+[0mGET /modules/dashboard/map/dashboard.map.controller.js [33m404 [0m2.671 ms - 188[0m
+[0mGET /modules/dashboard/list/dashboard.list.controller.js [33m404 [0m2.117 ms - 190[0m
+[0mGET /modules/drive/drive.module.js [33m404 [0m3.148 ms - 168[0m
+[0mGET /modules/drive/drive.route.js [33m404 [0m3.024 ms - 167[0m
+[0mGET /modules/drive/drive.service.js [33m404 [0m3.140 ms - 169[0m
+[0mGET /modules/drive/drive.controller.js [33m404 [0m2.585 ms - 172[0m
+[0mGET /modules/company/company.module.js [33m404 [0m2.639 ms - 172[0m
+[0mGET /modules/company/company.route.js [33m404 [0m2.588 ms - 171[0m
+[0mGET /modules/company/company.service.js [33m404 [0m1.828 ms - 173[0m
+[0mGET /modules/company/company.controller.js [33m404 [0m1.900 ms - 176[0m
+[0mGET /modules/user-control/user-control.module.js [33m404 [0m0.880 ms - 182[0m
+[0mGET /modules/user-control/user-control.route.js [33m404 [0m1.428 ms - 181[0m
+[0mGET /modules/user-control/user-control.service.js [33m404 [0m4.391 ms - 183[0m
+[0mGET /modules/user-control/user-control.controller.js [33m404 [0m5.045 ms - 186[0m
+[0mGET /modules/diary/diary.module.js [33m404 [0m5.198 ms - 168[0m
+[0mGET /modules/diary/diary.route.js [33m404 [0m5.155 ms - 167[0m
+[0mGET /modules/diary/diary.service.js [33m404 [0m5.530 ms - 169[0m
+[0mGET /modules/diary/diary.controller.js [33m404 [0m5.527 ms - 172[0m
+[0mGET /modules/wizard/wizard.module.js [33m404 [0m2.666 ms - 170[0m
+[0mGET /modules/wizard/wizard.controller.js [33m404 [0m2.204 ms - 174[0m
+[0mGET /modules/wizard/wizard.service.js [33m404 [0m0.697 ms - 171[0m
+[0mGET /modules-adm/login/login.module.js [33m404 [0m1.629 ms - 172[0m
+[0mGET /modules-adm/login/login.route.js [33m404 [0m2.319 ms - 171[0m
+[0mGET /modules-adm/login/login.service.js [33m404 [0m1.685 ms - 173[0m
+[0mGET /modules-adm/login/login.controller.js [33m404 [0m2.884 ms - 176[0m
+[0mGET /modules-adm/dashboard/dashboard.module.js [33m404 [0m3.098 ms - 180[0m
+[0mGET /modules-adm/dashboard/dashboard.route.js [33m404 [0m1.125 ms - 179[0m
+[0mGET /modules-adm/dashboard/dashboard.service.js [33m404 [0m2.710 ms - 181[0m
+[0mGET /modules-adm/dashboard/manager-user/manger.users.controller.js [33m404 [0m2.343 ms - 200[0m
+[0mGET /modules-adm/dashboard/license-edition/license.edition.controller.js [33m404 [0m2.442 ms - 206[0m
+[0mGET /modules-adm/dashboard/license-remotion/license.remotion.controller.js [33m404 [0m0.879 ms - 208[0m
+[0mGET /modules-adm/topbar/topbar.module.js [33m404 [0m0.816 ms - 174[0m
+[0mGET /modules-adm/topbar/topbar.controller.js [33m404 [0m0.705 ms - 178[0m
+[0mGET /modules-adm/topbar/topbar.service.js [33m404 [0m2.193 ms - 175[0m
+[0mGET /modules-adm/pop/pop.module.js [33m404 [0m2.305 ms - 168[0m
+[0mGET /modules-adm/pop/pop.route.js [33m404 [0m2.117 ms - 167[0m
+[0mGET /modules-adm/pop/license-list/license.list.controller.js [33m404 [0m1.346 ms - 194[0m
+[0mGET /modules-adm/pop/sidenav/sidenav.controller.js [33m404 [0m1.448 ms - 184[0m
+[0mGET /modules-adm/pop/step1/step.one.controller.js [33m404 [0m1.364 ms - 183[0m
+[0mGET /modules-adm/pop/pricing/pricing.controller.js [33m404 [0m0.950 ms - 184[0m
+[0mGET /modules-adm/pop/step1/step.one.service.js [33m404 [0m5.229 ms - 180[0m
+[0mGET /lib/angular-toastr/dist/angular-toastr.tpls.js [33m404 [0m0.491 ms - 185[0m
+[0mGET /lib/angular-jwt/dist/angular-jwt.js [33m404 [0m0.724 ms - 174[0m
+[0mGET /lib/async/async.js [33m404 [0m0.477 ms - 157[0m
+[0mGET /style/map/dark.js [33m404 [0m0.583 ms - 156[0m
+[0mGET /modules/notification-mails/notification.module.js [33m404 [0m0.579 ms - 188[0m
+[0mGET /modules/notification-mails/notification.route.js [33m404 [0m0.524 ms - 187[0m
+[0mGET /modules/forgot-password/forgot-password.module.js [33m404 [0m0.477 ms - 188[0m
+[0mGET /modules/forgot-password/forgot-password.route.js [33m404 [0m0.483 ms - 187[0m
+[0mGET /modules/forgot-password/forgot-password.service.js [33m404 [0m0.557 ms - 189[0m
+[0mGET /modules/forgot-password/forgot-password.controller.js [33m404 [0m0.535 ms - 192[0m
+[0mGET /modules/forgot-password/change-password.controller.js [33m404 [0m0.655 ms - 192[0m
+[0mGET /modules/topbar/topbar.module.js [33m404 [0m0.711 ms - 170[0m
+[0mGET /modules/topbar/topbar.service.js [33m404 [0m0.708 ms - 171[0m
+[0mGET /modules/topbar/topbar.controller.js [33m404 [0m0.527 ms - 174[0m
+[0mGET /modules/register/register.module.js [33m404 [0m0.448 ms - 174[0m
+[0mGET /modules/register/register.route.js [33m404 [0m0.661 ms - 173[0m
+[0mGET /modules/register/register.service.js [33m404 [0m0.524 ms - 175[0m
+[0mGET /modules/register/form/form.controller.js [33m404 [0m0.457 ms - 179[0m
+[0mGET /modules/register/cnpj/cnpj.controller.js [33m404 [0m0.708 ms - 179[0m
+[0mGET /modules/register/license/license.controller.js [33m404 [0m0.556 ms - 185[0m
+[0mGET /modules/waiting/waiting.module.js [33m404 [0m0.508 ms - 172[0m
+[0mGET /modules/waiting/waiting.route.js [33m404 [0m0.576 ms - 171[0m
+[0mGET /modules/upload-license/upload.license.module.js [33m404 [0m0.636 ms - 186[0m
+[0mGET /modules/upload-license/upload.license.route.js [33m404 [0m1.564 ms - 185[0m
+[0mGET /modules/upload-license/upload.license.service.js [33m404 [0m0.979 ms - 187[0m
+[0mGET /modules/upload-license/upload.license.controller.js [33m404 [0m0.714 ms - 190[0m
+[0mGET /modules/dashboard/dashboard.module.js [33m404 [0m0.656 ms - 176[0m
+[0mGET /modules/dashboard/dashboard.route.js [33m404 [0m0.505 ms - 175[0m
+[0mGET /modules/dashboard/dashboard.service.js [33m404 [0m0.703 ms - 177[0m
+[0mGET /modules/dashboard/map/dashboard.map.controller.js [33m404 [0m0.651 ms - 188[0m
+[0mGET /modules/dashboard/list/dashboard.list.controller.js [33m404 [0m0.586 ms - 190[0m
+[0mGET /modules/drive/drive.module.js [33m404 [0m0.742 ms - 168[0m
+[0mGET /modules/drive/drive.route.js [33m404 [0m0.526 ms - 167[0m
+[0mGET /modules/drive/drive.service.js [33m404 [0m0.493 ms - 169[0m
+[0mGET /modules/drive/drive.controller.js [33m404 [0m0.842 ms - 172[0m
+[0mGET /modules/company/company.module.js [33m404 [0m0.779 ms - 172[0m
+[0mGET /modules/company/company.route.js [33m404 [0m0.811 ms - 171[0m
+[0mGET /modules/company/company.service.js [33m404 [0m3.395 ms - 173[0m
+[0mGET /modules/company/company.controller.js [33m404 [0m0.661 ms - 176[0m
+[0mGET /modules/user-control/user-control.module.js [33m404 [0m1.874 ms - 182[0m
+[0mGET /modules/user-control/user-control.route.js [33m404 [0m0.701 ms - 181[0m
+[0mGET /modules/user-control/user-control.service.js [33m404 [0m0.742 ms - 183[0m
+[0mGET /modules/user-control/user-control.controller.js [33m404 [0m0.685 ms - 186[0m
+[0mGET /modules/diary/diary.module.js [33m404 [0m0.789 ms - 168[0m
+[0mGET /modules/diary/diary.route.js [33m404 [0m0.717 ms - 167[0m
+[0mGET /modules/diary/diary.service.js [33m404 [0m0.809 ms - 169[0m
+[0mGET /modules/diary/diary.controller.js [33m404 [0m0.723 ms - 172[0m
+[0mGET /modules/wizard/wizard.module.js [33m404 [0m0.814 ms - 170[0m
+[0mGET /modules/wizard/wizard.controller.js [33m404 [0m0.797 ms - 174[0m
+[0mGET /modules/wizard/wizard.service.js [33m404 [0m0.764 ms - 171[0m
+[0mGET /modules-adm/login/login.module.js [33m404 [0m0.920 ms - 172[0m
+[0mGET /modules-adm/login/login.route.js [33m404 [0m0.951 ms - 171[0m
+[0mGET /modules-adm/login/login.service.js [33m404 [0m0.740 ms - 173[0m
+[0mGET /modules-adm/login/login.controller.js [33m404 [0m0.725 ms - 176[0m
+[0mGET /modules-adm/dashboard/dashboard.module.js [33m404 [0m1.068 ms - 180[0m
+[0mGET /modules-adm/dashboard/dashboard.route.js [33m404 [0m0.780 ms - 179[0m
+[0mGET /modules-adm/dashboard/dashboard.service.js [33m404 [0m0.679 ms - 181[0m
+[0mGET /modules-adm/dashboard/manager-user/manger.users.controller.js [33m404 [0m0.826 ms - 200[0m
+[0mGET /modules-adm/dashboard/license-edition/license.edition.controller.js [33m404 [0m0.809 ms - 206[0m
+[0mGET /modules-adm/dashboard/license-remotion/license.remotion.controller.js [33m404 [0m1.059 ms - 208[0m
+[0mGET /modules-adm/topbar/topbar.module.js [33m404 [0m0.724 ms - 174[0m
+[0mGET /modules-adm/topbar/topbar.controller.js [33m404 [0m0.780 ms - 178[0m
+[0mGET /modules-adm/topbar/topbar.service.js [33m404 [0m0.757 ms - 175[0m
+[0mGET /modules-adm/pop/pop.module.js [33m404 [0m0.660 ms - 168[0m
+[0mGET /modules-adm/pop/pop.route.js [33m404 [0m0.793 ms - 167[0m
+[0mGET /modules-adm/pop/license-list/license.list.controller.js [33m404 [0m0.798 ms - 194[0m
+[0mGET /modules-adm/pop/sidenav/sidenav.controller.js [33m404 [0m0.859 ms - 184[0m
+[0mGET /modules-adm/pop/step1/step.one.controller.js [33m404 [0m0.916 ms - 183[0m
+[0mGET /modules-adm/pop/pricing/pricing.controller.js [33m404 [0m0.793 ms - 184[0m
+[0mGET /modules-adm/pop/step1/step.one.service.js [33m404 [0m0.923 ms - 180[0m
+[0mGET /img/simbolo_quadrado.jpg [33m404 [0m0.705 ms - 163[0m
+[0mGET /doc/ [32m200 [0m2.901 ms - 27514[0m
+[0mGET /doc/vendor/prettify.css [32m200 [0m6.415 ms - 1956[0m
+[0mGET /doc/css/style.css [32m200 [0m6.715 ms - 10398[0m
+[0mGET /doc/vendor/bootstrap.min.css [32m200 [0m7.779 ms - 121200[0m
+[0mGET /doc/vendor/polyfill.js [32m200 [0m4.536 ms - 2900[0m
+[0mGET /doc/vendor/require.min.js [32m200 [0m4.725 ms - 15825[0m
+[0mGET /doc/main.js [32m200 [0m1.129 ms - 28722[0m
+[0mGET /doc/vendor/jquery.min.js?v=1549028586499 [32m200 [0m0.876 ms - 85630[0m
+[0mGET /doc/locales/locale.js?v=1549028586499 [32m200 [0m5.043 ms - 1180[0m
+[0mGET /doc/api_project.js?v=1549028586499 [32m200 [0m5.497 ms - 485[0m
+[0mGET /doc/api_data.js?v=1549028586499 [32m200 [0m5.686 ms - 2096[0m
+[0mGET /doc/vendor/lodash.custom.min.js?v=1549028586499 [32m200 [0m6.786 ms - 19579[0m
+[0mGET /doc/utils/send_sample_request.js?v=1549028586499 [32m200 [0m5.001 ms - 6196[0m
+[0mGET /doc/vendor/semver.min.js?v=1549028586499 [32m200 [0m0.833 ms - 12950[0m
+[0mGET /doc/vendor/webfontloader.js?v=1549028586499 [32m200 [0m1.334 ms - 12492[0m
+[0mGET /doc/vendor/path-to-regexp/index.js?v=1549028586499 [32m200 [0m3.234 ms - 5147[0m
+[0mGET /doc/vendor/prettify/prettify.js?v=1549028586499 [32m200 [0m3.746 ms - 15261[0m
+[0mGET /doc/vendor/list.min.js?v=1549028586499 [32m200 [0m4.434 ms - 15952[0m
+[0mGET /doc/locales/ca.js?v=1549028586499 [32m200 [0m3.133 ms - 1225[0m
+[0mGET /doc/vendor/handlebars.min.js?v=1549028586499 [32m200 [0m3.253 ms - 72614[0m
+[0mGET /doc/locales/de.js?v=1549028586499 [32m200 [0m1.911 ms - 1234[0m
+[0mGET /doc/locales/es.js?v=1549028586499 [32m200 [0m3.134 ms - 1244[0m
+[0mGET /doc/locales/fr.js?v=1549028586499 [32m200 [0m4.149 ms - 1264[0m
+[0mGET /doc/locales/it.js?v=1549028586499 [32m200 [0m3.542 ms - 1249[0m
+[0mGET /doc/locales/nl.js?v=1549028586499 [32m200 [0m3.602 ms - 1241[0m
+[0mGET /doc/locales/pl.js?v=1549028586499 [32m200 [0m2.600 ms - 1226[0m
+[0mGET /doc/locales/pt_br.js?v=1549028586499 [32m200 [0m0.781 ms - 1236[0m
+[0mGET /doc/locales/ro.js?v=1549028586499 [32m200 [0m8.256 ms - 1238[0m
+[0mGET /doc/locales/ru.js?v=1549028586499 [32m200 [0m8.205 ms - 1481[0m
+[0mGET /doc/locales/zh.js?v=1549028586499 [32m200 [0m7.821 ms - 1163[0m
+[0mGET /doc/locales/zh_cn.js?v=1549028586499 [32m200 [0m6.547 ms - 1186[0m
+[0mGET /doc/utils/handlebars_helper.js?v=1549028586499 [32m200 [0m5.183 ms - 10277[0m
+[0mGET /doc/vendor/bootstrap.min.js?v=1549028586499 [32m200 [0m5.582 ms - 37045[0m
+[0mGET /doc/vendor/diff_match_patch.min.js?v=1549028586499 [32m200 [0m1.379 ms - 19192[0m
