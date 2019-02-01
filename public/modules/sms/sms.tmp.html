@@ -1,5 +1,5 @@
 
-<div ng-app="CalculatorApp" ng-controller="SmsController">
+<div>
     <p><input type="number" ng-model="a"></p>
     <p><select ng-model="operator">
         <option>+</option>
@@ -7,7 +7,7 @@
         <option>-</option>
         <option>/</option>
     </select></p>
-    <p>{{ result() }}</p>
+    <p>{{ vm.result() }}</p>
 </div>
 
 <div style="position: absolute; bottom: 10px; text-align: center; width: 100%;">
