@@ -12,13 +12,13 @@ const should = chai.should();
 
 chai.use(chaiHttp);
 
-describe('Message sms', function () {
+describe('Message sms', () => {
 
 	/**
 	 * Test the /POST route
 	 */
-	describe('/POST Create sms', function () {
-		it('it should Create  sms', function (done) {
+	describe('/POST Create sms', () => {
+		it('it should Create  sms', (done) => {
 			let sms = {
 				"userID" : "5be031d249edd40014019e2c",
 				"message": "teste de mesa",
@@ -29,7 +29,7 @@ describe('Message sms', function () {
 			chai.request(server)
 				.post('/api/message')
 				.send(sms)
-				.end(function (err, res) {
+				.end((err, res) => {
 					res.should.have.status(200);
 					res.body.data.should.be.a('object');
 					res.body.data.should.have.property('_id');
@@ -41,11 +41,11 @@ describe('Message sms', function () {
 	/**
 	 * Test the /GET route null
 	 */
-	describe('verify is reponse is null', function () {
-		it('it should GET all the smss', function (done) {
+	describe('verify is reponse is null', () => {
+		it('it should GET all the smss', (done) => {
 			chai.request(server)
 				.get('/api/messages')
-				.end(function (err, res) {
+				.end((err, res)  => {
 					res.should.have.status(200);
 					res.body.should.have.property('data').eq(null);
 
@@ -57,11 +57,11 @@ describe('Message sms', function () {
 	/**
 	 * Test the /GET route
 	 */
-	describe('/GET all smss', function () {
-		it('it should GET all the smss', function (done) {
+	describe('/GET all smss', () => {
+		it('it should GET all the smss', (done) => {
 			chai.request(server)
 				.get('/api/messages')
-				.end(function (err, res) {
+				.end((err, res)  => {
 					res.should.have.status(200);
 					res.body.data.should.be.a('array');
 					res.body.data.length.should.be.eql(0);
