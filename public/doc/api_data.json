@@ -9,7 +9,7 @@
       "examples": [
         {
           "title": "Success",
-          "content": "HTTP/1.1 200 OK\n[\n        {\n            \"_id\": \"5c5375dd5001be3274e3e7c8\",\n            \"userID\": \"5be031d249edd40014019e2c\",\n            \"message\": \"ola mundo\",\n            \"to\": \"12988121269\",\n            \"from\": \"12988121269\",\n            \"dateTime\": \"2019-01-31T22:25:33.284Z\"\n        }\n ]",
+          "content": "HTTP/1.1 200 OK\n[\n        {\n            \"_id\": \"5c5375dd5001be3274e3e7c8\",\n            \"userId\": \"5be031d249edd40014019e2c\",\n            \"message\": \"ola mundo\",\n            \"to\": \"12988121269\",\n            \"from\": \"12988121269\",\n            \"dateTime\": \"2019-01-31T22:25:33.284Z\"\n        }\n ]",
           "type": "json"
         }
       ]
@@ -54,7 +54,7 @@
       "examples": [
         {
           "title": "Success",
-          "content": "HTTP/1.1 200 OK\n{\n        \"_id\": \"5c5375dd5001be3274e3e7c8\",\n        \"userID\": \"5be031d249edd40014019e2c\",\n        \"message\": \"ola mundo\",\n        \"to\": \"12988121269\",\n        \"from\": \"12988121269\",\n        \"dateTime\": \"2019-01-31T22:25:33.284Z\"\n   }",
+          "content": "HTTP/1.1 200 OK\n{\n        \"_id\": \"5c5375dd5001be3274e3e7c8\",\n        \"userId\": \"5be031d249edd40014019e2c\",\n        \"message\": \"ola mundo\",\n        \"to\": \"12988121269\",\n        \"from\": \"12988121269\",\n        \"dateTime\": \"2019-01-31T22:25:33.284Z\"\n   }",
           "type": "json"
         }
       ]

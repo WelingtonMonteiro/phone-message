@@ -12,7 +12,7 @@
  * [
         {
             "_id": "5c5375dd5001be3274e3e7c8",
-            "userID": "5be031d249edd40014019e2c",
+            "userId": "5be031d249edd40014019e2c",
             "message": "ola mundo",
             "to": "12988121269",
             "from": "12988121269",
@@ -34,7 +34,7 @@
  * HTTP/1.1 200 OK
  * {
         "_id": "5c5375dd5001be3274e3e7c8",
-        "userID": "5be031d249edd40014019e2c",
+        "userId": "5be031d249edd40014019e2c",
         "message": "ola mundo",
         "to": "12988121269",
         "from": "12988121269",

@@ -4,7 +4,7 @@ let ObjectId = Schema.Types.ObjectId;
 const hooks = require('./sms.hooks.js');
 
 let SmsSchema = new Schema({
-    userID: {
+    userId: {
         type: ObjectId,
         required: true,
         index: true
