@@ -27,7 +27,7 @@ async function getMessages(req, res) {
             .sort({dateTime: -1})
             .lean();
 
-        result = result.forEach(item =>{
+        result.forEach(item =>{
             item.messageDecode = SmsService.inputText(item.keyBoardsPressed)
         });
 

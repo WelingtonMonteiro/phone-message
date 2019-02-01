@@ -1,0 +1,19 @@
+{
+  "skip": null,
+  "limit": null,
+  "total": 1,
+  "errorType": null,
+  "statusCode": 200,
+  "message": "",
+  "data": [
+    {
+      "_id": "5c546474f95c650015c11aab",
+      "isRead": false,
+      "message": "tente de mesa",
+      "dateTime": "2019-02-01T15:23:32.845Z",
+      "keyBoardsPressed": "8336683303_33063377772",
+      "userId": "5c546474f95c650015c11aac",
+      "messageDecode": "tente de mesa"
+    }
+  ]
+}
