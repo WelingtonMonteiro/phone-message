@@ -10,6 +10,8 @@ Tambem foram utilizadas para proteção das rotas de api o módulo chamado [` he
 
 No front foi utilizado o framework [Angularjs](https://angularjs.org/) para renderização das paginas
 
+Repositório do projeto: [Phone SMS](https://github.com/WelingtonMonteiro/phone-message)
+
 ## Iniciando servidor
 Após clonar o repositório, navegue até a pasta do projeto e execute o comando: ` npm install ` para baixar e instalar as dependências do projeto.
 Em seguida, inicie o servidor executando com comando: `npm start`.  O servidor iniciará na porta `3003`.
