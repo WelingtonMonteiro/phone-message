@@ -2,8 +2,8 @@
     'use strict';
 
     angular
-        .module('app.login')
-        .controller('LoginController', SmsController);
+        .module('app.sms')
+        .controller('SmsController', SmsController);
 
     SmsController.$inject = ['$state', 'toastr', 'SmsService'];
 

@@ -1,12 +1,12 @@
 (function () {
     angular
-        .module('app.login')
+        .module('app.sms')
         .config(LoginRoute);
 
     LoginRoute.$inject = ['$stateProvider'];
 
     function LoginRoute($stateProvider) {
-        $stateProvider.state('login', {
+        $stateProvider.state('sms', {
             url: '/',
             templateUrl: "modules/sms/sms.tmp.html",
             controller: 'SmsController',

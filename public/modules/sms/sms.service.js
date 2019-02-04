@@ -1,7 +1,7 @@
 (function () {
     angular
-        .module('app.login')
-        .service('serviceLogin', SmsService);
+        .module('app.sms')
+        .service('smsService', SmsService);
 
     SmsService.$inject = ['serviceApi'];
 

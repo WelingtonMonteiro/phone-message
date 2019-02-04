@@ -24,7 +24,7 @@
     }
 
 
-    AppRun.$inject = ['$rootScope', '$location', '$state', 'jwtHelper'];
+    AppRun.$inject = ['$rootScope', '$location', '$state'];
 
     function AppRun($rootScope, $location, $state) {
 
